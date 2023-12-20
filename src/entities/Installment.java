@@ -8,7 +8,6 @@ public class Installment {
 	private Double amount;
 	
 	public Installment(LocalDate dueDate, Double amount) {
-		super();
 		this.dueDate = dueDate;
 		this.amount = amount;
 	}
@@ -27,5 +26,5 @@ public class Installment {
 
 	public void setAmount(Double amount) {
 		this.amount = amount;
-	}
+	}	
 }
